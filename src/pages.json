@@ -1,0 +1,111 @@
+{
+    "easycom": {
+      "autoscan": true,
+      "custom": {
+        "^u--(.*)": "uview-plus/components/u-$1/u-$1.vue",
+        "^up-(.*)": "uview-plus/components/u-$1/u-$1.vue",
+        "^u-([^-].*)": "uview-plus/components/u-$1/u-$1.vue"
+      }
+    },
+    "pages": [
+			
+	{
+		"path": "pages/layout/layout",
+		"style": {
+		  "navigationBarTitleText": "DaBang"
+		}
+	},
+      {
+        "path": "pages/login/login",
+        "style": {
+          "navigationBarTitleText": "DaBang"
+        }
+      },
+      {
+        "path": "pages/wardrobe/wardrobe",
+        "style": {
+          "navigationBarTitleText": "DaBang"
+        }
+      },
+      {
+        "path": "pages/match/match",
+        "style": {
+          "navigationBarTitleText": "DaBang"
+        }
+      },
+      {
+        "path": "pages/my/my",
+        "style": {
+          "navigationBarTitleText": "DaBang"
+        }
+      },
+      {
+        "path": "pages/shop/shop",
+        "style": {
+          "navigationBarTitleText": "DaBang"
+        }
+      },
+      {
+        "path": "pages/my/address/address",
+        "style": {
+          "navigationBarTitleText": "地址管理"
+        }
+      }
+      ,
+      {
+        "path": "pages/my/address/addAddress",
+        "style": {
+          "navigationBarTitleText": "新增地址"
+        }
+      }
+     
+    ],
+    "globalStyle": {
+      "navigationBarTextStyle": "black",
+      "navigationBarTitleText": "uni-app",
+      "navigationBarBackgroundColor": "#F8F8F8",
+      "backgroundColor": "#F8F8F8"
+    },
+    "tabBar": {
+      "backgroundColor": "#F2F2F2",
+      "color": "#000",
+      "selectedColor": "#3988FF",
+      "fontSize": "20px",
+      "list": [
+        {
+          "pagePath": "pages/layout/layout",
+          "text": "每日推荐",
+           "iconPath": "static/dabang/icon-09.png",
+           "selectedIconPath": "static/dabang/icon-10.png"
+        },
+        {     
+          "pagePath": "pages/wardrobe/wardrobe",
+          "text": "我的衣橱",
+           "iconPath": "static/dabang/icon-01.png",
+           "selectedIconPath": "static/dabang/icon-02.png"
+        },
+        {
+          "pagePath": "pages/match/match",
+          "text": "试衣搭配",
+             "iconPath": "static/dabang/icon-03.png",
+           "selectedIconPath": "static/dabang/icon-04.png"
+      
+        },
+        {
+          "pagePath": "pages/shop/shop",
+          "text": "购物商城",
+             "iconPath": "static/dabang/icon-05.png",
+           "selectedIconPath": "static/dabang/icon-06.png"
+      
+        },
+		    {
+		    	"pagePath": "pages/my/my",
+			    "text": "个人中心",
+         "iconPath": "static/dabang/icon-07.png",
+           "selectedIconPath": "static/dabang/icon-08.png"
+		
+		    }
+      ]
+    }
+  }
+  
