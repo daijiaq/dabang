@@ -18,7 +18,7 @@
       {
         "path": "pages/login/login",
         "style": {
-          "navigationBarTitleText": "DaBang"
+          "navigationBarTitleText": "登录"
         }
       },
       {
@@ -58,7 +58,24 @@
           "navigationBarTitleText": "新增地址"
         }
       }
-     
+     ,{
+      "path": "pages/my/unLogin",
+      "style": {
+        "navigationBarTitleText": "DaBang"
+      }
+     }
+     ,{
+      "path": "pages/my/order/myOrder",
+      "style": {
+        "navigationBarTitleText": "我的订单"
+      }
+     }
+     ,{
+      "path": "pages/my/browsingHistory/history",
+      "style": {
+        "navigationBarTitleText": "浏览历史"
+      }
+     }
     ],
     "globalStyle": {
       "navigationBarTextStyle": "black",
